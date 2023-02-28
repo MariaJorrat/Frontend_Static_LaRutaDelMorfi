@@ -2,8 +2,8 @@
 ## Grupo 4
 ## Blog sobre gastronomía local
 #### Miembros
-###### Delgado Ana Gisela
+###### Delgado Ana Gisela (scrum)
 ###### Ghidara Mariano
 ###### Jorrat María Florencia
-###### Lopez Ana Constanza (SCRUM)
+###### Lopez Ana Constanza
 ###### Soler Juan Ignacio
