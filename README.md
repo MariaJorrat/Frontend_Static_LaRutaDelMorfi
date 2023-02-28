@@ -6,4 +6,4 @@
 ##### Ghidara Mariano
 ##### Jorrat María Florencia
 ##### Lopez Ana Constanza (SCRUM)
-##### Soler Juan Ignacio
+###### Soler Juan Ignacio
