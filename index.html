@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Grupo 4</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+  </head>
+  <body class="bg-dark text-light">
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="ruta_de_la_imagen.jpg" class="img-fluid" />
+        </div>
+        <div class="col-md-6">
+          <div class="embed-responsive embed-responsive-16by9">
+            <video
+              class="embed-responsive-item"
+              src="ruta_del_video.mp4"
+              controls
+            ></video>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-md-12">
+          <h2>Descripción</h2>
+          <p>Texto descriptivo de la página.</p>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-md-12">
+          <h2>Comentarios</h2>
+          <form>
+            <div class="form-group">
+              <label for="nombre">Nombre</label>
+              <input type="text" class="form-control" id="nombre" />
+            </div>
+            <div class="form-group">
+              <label for="comentario">Comentario</label>
+              <textarea
+                class="form-control"
+                id="comentario"
+                rows="3"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
+      </div>
+      <div class="row mt-5 text-dark">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">Login</h4>
+              <form>
+                <div class="form-group">
+                  <label for="usuario">Usuario</label>
+                  <input type="text" class="form-control" id="usuario" />
+                </div>
+                <div class="form-group">
+                  <label for="contraseña">Contraseña</label>
+                  <input type="password" class="form-control" id="contraseña" />
+                </div>
+                <button type="submit" class="btn btn-primary">
+                  Iniciar sesión
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="ruta_de_la_imagen_de_login.jpg" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
