@@ -1,0 +1,195 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color: #291F1E;
+}
+
+/* NAV */
+
+.first-section {
+    padding-top: 50px; /* la misma altura que el navbar */
+  }
+  
+/* fin NAV */
+
+
+
+/*  SECCION CENTRAL MARIANO */
+
+.div-padre{
+  background-color: #291F1E;
+}
+
+
+/* COL 1 IZQ */
+
+.col-1{
+  background-color: #F64740;
+}
+
+/* 1- TITULO h2 */
+.h2-mar{
+  background-color: #F64740;
+}
+
+/* 2- ENTRADAS 1, 2 y 3 */
+.entradas-blog{
+  position: relative;
+  background-color: #A3333D;    
+  border: 0px;
+}
+
+.fechas-entradas-blog{
+  position: absolute;
+  top: 15px;
+  right: 0;
+  background-color: rgb(205, 200, 200);
+  color: black;
+  height: 30px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  border-radius: 5px;
+}
+
+.p-fechas{
+  margin: 0;
+  font-weight:bold;
+}
+
+.titulos-entradas{
+  background-color: #291F1E;
+}
+
+/* 4- PAGINATION */
+.pagination-a{
+  background-color:#A3333D;
+  color: #F4F3EE;
+}
+
+
+
+/* COL 2 DER */
+
+/* 1- CATEGORIAS */
+
+.list-group-item{
+  background-color: #363636;
+  color: #F4F3EE;
+}
+
+.list-group-item:hover{
+  background-color:#F64740;
+  color: #291F1E;
+  font-weight: 800;
+}
+
+
+/* 2- BUSCADOR */
+.buscador{
+  background-color: #F64740;
+  color: #A3333D;
+}
+
+.button-buscador{
+  border: 2px solid #A3333D;
+  background-color: #291F1E;
+  opacity: 0.5;
+  
+}
+
+/* 3- PUBLICIDAD */
+
+.bckg-img{
+  background-image: url(./proyecto1-assets-mariano/artistica-blanco-y-negro-b-w-grunge-asperos-o-superposicion-de-retro-efecto-filtro-de-fondo-abstracto-pgergt.jpg);
+  height: 100px;
+}
+
+  .button-col1 {
+      padding: 0.9em 1.8em;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 4px;
+  color: transparent;
+  border: 3px solid #F64740;
+  font-size: 14px;
+  position: relative;
+  font-family: inherit;
+  background: transparent;
+}
+
+.button-col1::before {
+  content: "ver mas";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #363636;
+  color: #F64740;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
+
+.button-col1:hover::before {
+  left: 100%;
+  transform: scale(0) rotateY(360deg);
+  opacity: 0;
+}
+
+.button-col1::after {
+  content: "ver mas";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: #363636;
+  color: #F64740;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+  transform: scale(0) rotateY(0deg);
+  opacity: 0;
+}
+
+.button-col1:hover::after {
+  left: 0;
+  transform: scale(1) rotateY(360deg);
+  opacity: 1;
+}
+
+/* footer */
+
+.footer-row-border{
+  border-top: 1px solid lightslategray;
+}
+
+/* fin footer */
+
+
+
+@media screen and (max-width: 979px){
+  .p-fechas{
+      width:100%
+  }
+  .fechas-entradas-blog{
+      width: 80%;
+      position: absolute;
+      margin-right: auto;
+      margin-left: auto;
+      right: 0;
+      left: 0;
+  }
+ 
+
+}
+
+/* FIN SECCION CENTRAL */
+
+
+  

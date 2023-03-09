@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <meta charset="UTF-8" />
+    <title>Grupo 4</title>
+    <!-- Importar Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./css/style4-login.css" />
+  </head>
+
+ <body class="bg-dark container-fluid">
+
+   <!-- NAVBAR -->
+    <nav class="navbar relative-top navbar-expand-lg navbar-dark bg-warning">
+      <div class="container">
+        <nav class="navbar navbar-dark bg-transparent">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">
+              <img
+                src="./assets/1-index/1-index-nav/img/logo-negro-sin-fondo-.png"
+                alt=""
+                width="30"
+                height="30"
+                class="d-inline-block align-text-top me-2"
+              />
+              La Ruta del Morfi
+            </a>
+          </div>
+        </nav>
+
+        <a class="navbar-brand me-5" href="#"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active me-5"
+                aria-current="page"
+                href="./pag5-contacto.html"
+                >Contactanos</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./pag6-acercaDe.html"
+                >Acerca de Nosotros</a
+              >
+            </li>
+          </ul>
+            </a>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Fin Navbar -->
+
+
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Iniciar sesión</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="row">
+  <div class="col-sm-8 mx-auto">
+    <div class="card bg-dark text-light">
+      <div class="card-body">
+        <h4 class="card-title text-left mt-3">Iniciar sesión</h4>
+        <hr>
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Correo electrónico</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ejemplo@ejemplo.com">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Contraseña</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+              </div>
+              <button type="submit" class="btn btn-warning text-light btn-block">Iniciar sesión</button>
+              <hr>
+              <div class="text-center">
+                <h5>O ingresa con:</h5>
+                <button type="button" class="btn btn-primary btn-circle"><i class="fab fa-facebook-f"></i>Facebook</button>
+                <button type="button" class="btn btn-danger btn-circle"><i class="fab fa-google"></i>Google</button>
+              </div>
+              <hr>
+              <div class="text-center">
+                <p>¿Olvidaste tu contraseña?</p>
+                <button type="button" class="btn btn-warning text-light" data-toggle="modal" data-target="#recuperarContrasenaModal">Haz clic aquí</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-4 py-3">
+            <img src="./assets/4-login/logoB.png" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal para recuperar contraseña -->
+<div class="modal fade" id="recuperarContrasenaModal" tabindex="-1" role="dialog" aria-labelledby="recuperarContrasenaModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="recuperarContrasenaModalLabel">Recuperar contraseña</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+
+    <!-- Importar jQuery, Popper.js y Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
+</html>

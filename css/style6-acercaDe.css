@@ -1,0 +1,30 @@
+video {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+
+    top: 50%;
+    left: 50%;
+
+transform: translateX(-50%) translateY(-50%);
+z-index: -1;
+}
+
+.texto {
+    font-family: 'Cabin', sans-serif;
+    color: rgb(221, 180, 93);   
+}
+
+
+.img-fluid {
+    width: 180px;
+    height: 180px;
+    border-radius: 40%;
+    border: 5px solid #eca400
+}
+
+.container {
+    background-color: #000000;
+    opacity: 90%;
+}
+
