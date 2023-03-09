@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Suscribirme</title>
 
     <style>
       .fondo {
@@ -20,9 +20,6 @@
         width: 420px;
         height: fit-content;
         background: #333232;
-        box-shadow: 0px 187px 75px rgba(0, 0, 0, 0.01),
-          0px 105px 63px rgba(0, 0, 0, 0.05), 0px 47px 47px rgba(0, 0, 0, 0.09),
-          0px 12px 26px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
         border-radius: 50px;
       }
 
@@ -75,14 +72,12 @@
         border-radius: 5px;
         outline: none;
         border: 1px solid #e5e5e5;
-        filter: drop-shadow(0px 1px 0px #efefef)
-          drop-shadow(0px 1px 0.5px rgba(239, 239, 239, 0.5));
-        transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
+      
       }
 
       .input_field:focus {
         border: 1px solid transparent;
-        box-shadow: 0px 0px 0px 1px #2b2b2f;
+        box-shadow: 0px 0px 0px 1px #e9e9ec;
         background-color: transparent;
       }
 
@@ -102,15 +97,16 @@
           #0550ed 100%
         );
         box-shadow: 0px 0.5px 0.5px #efefef,
-          0px 1px 0.5px rgba(239, 239, 239, 0.5);
-        border-radius: 5px;
+          0px 1px 0.5px rgba(239, 239, 239, 0.782);
+        border-radius: 20px;
         border: 0;
         font-style: normal;
         font-weight: 600;
-        font-size: 12px;
+        font-size: 15px;
         line-height: 15px;
         color: #ffffff;
       }
+
     </style>
   </head>
 
@@ -175,7 +171,10 @@
         <button class="submit">Suscribir con Google</button>
         <button class="submit">Suscribir con Facebook</button>
         <button class="submit">Suscribir</button>
-        <button class="submit">Salir</button>
+        <a href="./index.html">
+          <button class="submit" type="button">Salir</button>
+        </a>
+        
       </form>
     </div>
   </body>
