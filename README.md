@@ -4,8 +4,8 @@
 #### Blog sobre gastronomía local
 https://larutadelmorfi.netlify.app/
 ##### Miembros
+```
 - Delgado Ana Gisela
-```scrum
 - Ghidara Mariano
 - Jorrat María Florencia
 - Lopez Ana Constanza
